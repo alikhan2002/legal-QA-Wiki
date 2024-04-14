@@ -1,0 +1,29 @@
+Примечание! Нужно установить питон в ПК, если у вас нет в системе.
+
+1. Создать папку и разархивировать все содержимое.
+
+2. Создать виртуальную среду:
+- Открыть командную строку и перейти в путь папки cd /path/to/your/project
+- python -m venv legal
+- legal\Scripts\activate
+
+3. Перейти по ссылке и скачать архив:
+- https://dl.fbaipublicfiles.com/fasttext/vectors-crawl/cc.ru.300.bin.gz
+Если не скачивается, то перейдите по ссылке:
+- https://fasttext.cc/docs/en/crawl-vectors.html
+Найдите для русского языка(Russian) и скачайте bin
+
+4. Скачать архив по ссылке
+- https://drive.google.com/file/d/1fE3JqFY818CtgQrlJQUabpx7cH0Euffp/view
+
+5. Разархивировать все в ту же директорию/папку
+
+6. Установить необходимые библиотеки
+- pip install -r requirements.txt
+
+7. Запустить программу
+- python model.py
+
+Программа в начале долго грузиться, но затем более быстро.
+
+
